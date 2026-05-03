@@ -26,20 +26,20 @@ En esta unidad exploramos los fundamentos de la lógica de programación. Los te
 ---
 
 ### 💻 Ejercicio con Estructura Secuencial
-*Lenguaje utilizado en clase: [Escribe el lenguaje aquí, ej. C++, Python o PSeInt]*
+// Ejemplo en C++ (ajústalo a tu lenguaje)
+#include <iostream>
+using namespace std;
 
-#### 1. Planteamiento del Problema
-> [Escribe aquí brevemente de qué trataba el ejercicio]
-
-#### 2. Análisis del Problema
-* **Entradas:** [Ej. Dos números enteros]
-* **Proceso:** [Ej. Suma de las variables]
-* **Salida:** [Ej. El resultado total]
-
-#### 3. Diseño del Algoritmo
-*Aquí puedes insertar una imagen de tu diagrama de flujo si la tienes:*
-`![Diagrama de Flujo](enlace-a-tu-imagen.png)`
-
+int main() {
+    int n1, n2, suma;
+    cout << "Ingrese primer numero: ";
+    cin >> n1;
+    cout << "Ingrese segundo numero: ";
+    cin >> n2;
+    suma = n1 + n2;
+    cout << "El resultado es: " << suma;
+    return 0;
+}
 **Pseudocódigo:**
 ```text
 Algoritmo EjercicioSecuencial
