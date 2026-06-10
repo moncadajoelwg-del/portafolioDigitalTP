@@ -1,3 +1,7 @@
+# UNIDAD 2: ESTRUCTURAS ALGORÍTMICAS DE CONTROL 
+---
+[🔙 Volver al Índice Principal](./README.md)
+
 # 1. Estructuras Condicionales
 Las estructuras condicionales permiten a un programa tomar decisiones y ejecutar diferentes bloques de código según se cumpla o no una condición lógica (evaluada como verdadera o falsa). Son la base de la lógica en cualquier lenguaje de programación.
 
