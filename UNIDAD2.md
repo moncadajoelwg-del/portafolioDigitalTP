@@ -357,9 +357,9 @@ int main() {
 | **30** | No cumple ninguna condición de descuento. <br>Precio = $10.00. | "Categoría: Regular (Tarifa Completa)" <br> "Costo del boleto: $10.00" |
 | **70** | Como 70 >= 65, se aplica 30% de descuento. <br>Precio = $7.00. | "Categoría: Adulto Mayor (30% Descuento)" <br> "Costo del boleto: $7.00" |
 
-# 4. Principales dificultades en la aplicación de los contenidos.
+## 4. Principales dificultades en la aplicación de los contenidos.
 Aplicar estructuras condicionales y repetitivas en el código me daba cierta difícultad porque requiere cambiar la forma natural en que pensamos por una lógica sumamente estricta. Con las condicionales (si pasa esto, haz aquello), el principal tropiezo era olvidar los escenarios intermedios o de error; por ejemplo, planificar qué hacer si llueve o si está soleado, pero congelarse si el clima está nublado. Con las repetitivas (bucles/ciclos), el dolor de cabeza era controlar cuándo detenerse, lo que suele provocar bucles infinitos que traban la computadora, o errores de "desfase" donde una tarea se repite una vez más o una vez menos de lo necesario.
-# 5. Reflexion critica 
+## 5. Reflexion critica 
 La reflexión crítica que me deja esto es que programar no es solo escribir código, sino aprender a traducir nuestra intuición cotidiana a un idioma que no acepta ambigüedades. En el día a día tomamos decisiones y repetimos rutinas de forma automática (como revisar el celular hasta que nos dormimos), pero la computadora no tiene sentido común. El verdadero reto y aprendizaje está en desarrollar la empatía digital necesaria para desmenuzar nuestras propias acciones en pasos tan pequeños, claros y lógicos que hasta una máquina sin cerebro los pueda entender a la perfección.
 
 
