@@ -213,4 +213,4 @@ La programación no se trata simplemente de escribir código en una computadora,
 La **Prueba de Escritorio** resultó ser la herramienta más reveladora: nos enseña que un programa no es una "caja negra" mágica, sino una serie de cambios de estado en la memoria. Como principiante, esta unidad me ha permitido entender que la base del éxito en la programación es la **paciencia y el orden**; si la lógica inicial está mal planteada, no hay lenguaje de programación que pueda salvar el resultado.
 
 ---
-
+[🔙 Volver al Índice Principal](./README.md)
