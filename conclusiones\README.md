@@ -8,4 +8,4 @@ Este espacio está dedicado a consolidar las reflexiones finales sobre los conoc
 4. **[Conclusión de la UNIDAD 3]:** Comenta sobre los desafíos analíticos o técnicos que lograste superar durante el desarrollo de las actividades.
 
 ---
-[🔙 Volver al Índice Principal](../README.md)
+[🔙 Volver al Índice Principal](./README.md)
