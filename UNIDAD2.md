@@ -370,7 +370,9 @@ Aplicar estructuras condicionales y repetitivas en el código me daba cierta dif
 ## 5. Reflexion critica 
 La reflexión crítica que me deja esto es que programar no es solo escribir código, sino aprender a traducir nuestra intuición cotidiana a un idioma que no acepta ambigüedades. En el día a día tomamos decisiones y repetimos rutinas de forma automática (como revisar el celular hasta que nos dormimos), pero la computadora no tiene sentido común. El verdadero reto y aprendizaje está en desarrollar la empatía digital necesaria para desmenuzar nuestras propias acciones en pasos tan pequeños, claros y lógicos que hasta una máquina sin cerebro los pueda entender a la perfección.
 
-[🔙 Volver al Índice Principal](./README.md)
+<p align="left">
+  <a href="UNIDAD3.md" style="text-decoration: none; color: #58a6ff; font-weight: bold; font-size: 14px;">Siguiente: Unidad 3 ➡️</a>
+</p>
 
 
 
