@@ -1,48 +1,6 @@
-<div align="center">
-
-# 📘 Portafolio Digital de Aprendizaje – Teoría de la Programción.
-## UNIDAD 1: Fundamentos de Programación
-
-
-
-
+## UNIDAD 1: FUNDAMENTOS DE ALGORITMOS Y PROGRAMAS 
 ---
-
-
-
-
-<img src="https://cdn-icons-png.flaticon.com/512/2906/2906274.png" width="100">
-
-**INSTITUCIÓN:** UNIVERSIDAD NACIONAL DE LOJA
-**CARRERA:** COMPUTACIÓN
-**ASIGNATURA:** TEORÍA DE LA PROGRAMACIÓN 
-
-
-
-
----
-
-### 👨‍💻 INFORMACIÓN DEL ESTUDIANTE
-**Nombre:** Wilson Joel Guevara Monacada 
-
-**Docente:** Lissette Geoconda López Faicán 
-
-**Ciclo:** Primero "A"
-
-
-
-
-
----
-
-> *"La programación no es solo escribir código, es resolver problemas."*
-
-</div>
-
-
-
-## UNIDAD 1
-
+[🔙 Volver al Índice Principal](./README.md)
 ###  Contenidos
 En esta unidad exploramos los fundamentos de la lógica de programación. Los temas principales incluyeron:
 
