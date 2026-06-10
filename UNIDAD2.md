@@ -1,4 +1,12 @@
-# UNIDAD 2: ESTRUCTURAS ALGORÍTMICAS DE CONTROL 
+<div align="center" style="margin-bottom: 35px; border-top: 2px solid #58a6ff; border-bottom: 2px solid #58a6ff; padding: 20px 0;">
+  <h1 style="color: #58a6ff; font-size: 28px; font-weight: 800; letter-spacing: 3px; margin: 0; text-transform: uppercase; font-family: 'Segoe UI', system-ui, sans-serif;">
+    UNIDAD II: ESTRUCTURAS ALGORÍTMICAS DE CONTROL
+  </h1>
+  <div style="color: #8b949e; font-size: 14px; font-style: italic; margin-top: 8px; letter-spacing: 1px;">
+    — Bifurcaciones, Decisiones e Iteraciones en el Flujo Lógico —
+  </div>
+</div>
+
 ---
 [🔙 Volver al Índice Principal](./README.md)
 
@@ -362,6 +370,7 @@ Aplicar estructuras condicionales y repetitivas en el código me daba cierta dif
 ## 5. Reflexion critica 
 La reflexión crítica que me deja esto es que programar no es solo escribir código, sino aprender a traducir nuestra intuición cotidiana a un idioma que no acepta ambigüedades. En el día a día tomamos decisiones y repetimos rutinas de forma automática (como revisar el celular hasta que nos dormimos), pero la computadora no tiene sentido común. El verdadero reto y aprendizaje está en desarrollar la empatía digital necesaria para desmenuzar nuestras propias acciones en pasos tan pequeños, claros y lógicos que hasta una máquina sin cerebro los pueda entender a la perfección.
 
+[🔙 Volver al Índice Principal](./README.md)
 
 
 
