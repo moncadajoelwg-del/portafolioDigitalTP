@@ -46,7 +46,7 @@ Es la **representación visual** de un algoritmo. Utiliza símbolos estandarizad
 2. **Detección de Errores:** Permite identificar saltos lógicos incorrectos o bucles infinitos antes de programar.
 3. **Documentación:** Sirve como guía técnica para que otros desarrolladores entiendan la lógica sin leer código.
 
-### 4. Diagrama de Flujo (Generado con Código)
+### Diagrama de Flujo (Generado con Código)
 
 ```mermaid
 graph TD
@@ -190,38 +190,18 @@ Para verificar que el algoritmo sea correcto, aplicamos la misma lógica (`Area 
 5.**
 ---
 
-## Principales Dificultades y Reflexión Crítica
-
-A lo largo del desarrollo de esta unidad, se han identificado retos significativos que forman parte del proceso de aprendizaje de cualquier programador principiante.
-
-### Principales Dificultades
+## Principales Dificultades
 
 * **Abstracción de la Lógica:** Pasar de un problema cotidiano a un algoritmo estructurado es el mayor reto. Entender que la computadora no "supone" nada y que cada paso debe ser explícito fue una dificultad inicial común.
 * **Sintaxis vs. Lógica:** Al principio, es fácil frustrarse por olvidar un punto y coma (`;`) en Lenguaje C o cerrar mal un bloque de código, lo que a veces distrae de lo más importante: entender si la solución lógica es correcta.
 * **Jerarquía de Operaciones:** En ejercicios secuenciales como el del área del triángulo, un error frecuente es no utilizar correctamente los paréntesis, lo que altera el resultado final del proceso matemático.
 * **Manejo de Tipos de Datos:** Diferenciar cuándo usar un `Entero` o un `Real` (float) genera confusión al inicio, especialmente cuando los resultados esperados tienen decimales.
 
-### Reflexión Crítica
+## Reflexión Crítica
 
 La programación no se trata simplemente de escribir código en una computadora, sino de **aprender a pensar de forma estructurada**. Herramientas como el **Pseudocódigo** y los **Diagramas de Flujo** son fundamentales, ya que permiten "ver" la solución antes de pelearse con las reglas de un lenguaje técnico.
 
 La **Prueba de Escritorio** resultó ser la herramienta más reveladora: nos enseña que un programa no es una "caja negra" mágica, sino una serie de cambios de estado en la memoria. Como principiante, esta unidad me ha permitido entender que la base del éxito en la programación es la **paciencia y el orden**; si la lógica inicial está mal planteada, no hay lenguaje de programación que pueda salvar el resultado.
 
 ---
-## Bibliografía
 
-## Bibliografía (Formato IEEE)
-
-[1] M. A. Rodríguez-Almeida, *Fundamentos de Programación: Algoritmos y Estructura de Datos*, 2da ed. Madrid, España: McGraw-Hill, 2020. [En línea]. Disponible: https://www.mheducation.es/fundamentos-de-programacion-9788448618827-espanol
-
-[2] B. W. Kernighan y D. M. Ritchie, *El Lenguaje de Programación C*, 2da ed. México: Prentice Hall, 1991. [En línea]. Disponible: https://archive.org/details/the-c-programming-language-2nd-edition-bernanrd-w.-kernighan-dennis-m.-ritchie
-
-[3] J. Maloney, M. Resnick, N. Rusk, B. Silverman y E. Eastmond, "The Scratch Programming Language and Environment", *ACM Transactions on Computing Education*, vol. 10, no. 4, pp. 1-15, nov. 2010. [En línea]. Disponible: https://web.media.mit.edu/~jmaloney/papers/ScratchSpecialIssue.pdf
-
----
-
-## Declaración de Uso de IA Generativa
-
-**Responsabilidad y Transparencia**
-
-En cumplimiento con las normas de integridad académica, declaro que para la elaboración de este portafolio de la Unidad 1 se contó con el apoyo de **IA Generativa (Gemini)**.
