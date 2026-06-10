@@ -41,9 +41,9 @@
 
 
 
-## 📖UNIDAD 1
+## UNIDAD 1
 
-### 📘 Contenidos
+###  Contenidos
 En esta unidad exploramos los fundamentos de la lógica de programación. Los temas principales incluyeron:
 
 * **Algoritmo y Pseudocódigo:** Estructuración lógica de procesos.
