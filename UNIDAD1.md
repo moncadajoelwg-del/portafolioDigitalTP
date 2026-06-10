@@ -1,4 +1,4 @@
-## UNIDAD 1: FUNDAMENTOS DE ALGORITMOS Y PROGRAMAS 
+# UNIDAD 1: FUNDAMENTOS DE ALGORITMOS Y PROGRAMAS 
 ---
 [🔙 Volver al Índice Principal](./README.md)
 ###  Contenidos
@@ -190,7 +190,7 @@ Para verificar que el algoritmo sea correcto, aplicamos la misma lógica (`Area 
 5.**
 ---
 
-## Principales Dificultades
+## Principales dificultades en la aplicación de los contenidos.
 
 * **Abstracción de la Lógica:** Pasar de un problema cotidiano a un algoritmo estructurado es el mayor reto. Entender que la computadora no "supone" nada y que cada paso debe ser explícito fue una dificultad inicial común.
 * **Sintaxis vs. Lógica:** Al principio, es fácil frustrarse por olvidar un punto y coma (`;`) en Lenguaje C o cerrar mal un bloque de código, lo que a veces distrae de lo más importante: entender si la solución lógica es correcta.
