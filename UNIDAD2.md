@@ -370,6 +370,10 @@ Aplicar estructuras condicionales y repetitivas en el código me daba cierta dif
 ## 5. Reflexion critica 
 La reflexión crítica que me deja esto es que programar no es solo escribir código, sino aprender a traducir nuestra intuición cotidiana a un idioma que no acepta ambigüedades. En el día a día tomamos decisiones y repetimos rutinas de forma automática (como revisar el celular hasta que nos dormimos), pero la computadora no tiene sentido común. El verdadero reto y aprendizaje está en desarrollar la empatía digital necesaria para desmenuzar nuestras propias acciones en pasos tan pequeños, claros y lógicos que hasta una máquina sin cerebro los pueda entender a la perfección.
 
+> ### 🤖 Declaración de Uso de IA - Unidad 2
+> * **Herramienta utilizada:** Gemini
+> * **Uso específico:** Debido a la complejidad lógica de las estructuras condicionales y repetitivas, se utilizó la IA como un tutor de co-pilotaje. Me ayudó a comprender los errores de "desfase" (off-by-one) en los ciclos y a analizar cómo piensa la computadora sin ambigüedades. El código final fue razonado, implementado y probado por el autor.
+
 <p align="left">
   <a href="UNIDAD3.md" style="text-decoration: none; color: #58a6ff; font-weight: bold; font-size: 14px;">Siguiente: Unidad 3 ➡️</a>
 </p>
