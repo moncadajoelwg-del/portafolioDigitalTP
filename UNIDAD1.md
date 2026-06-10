@@ -24,13 +24,13 @@ En esta unidad exploramos los fundamentos de la lógica de programación. Los te
 
 La **estructuración lógica** es el cimiento de cualquier programa. Antes de codificar, debemos definir el camino que seguirán los datos.
 
-### El Algoritmo
+## El Algoritmo
 Es una serie de pasos **ordenados, finitos y precisos** para resolver un problema. Sus componentes básicos son:
 * **Entrada:** Los datos iniciales.
 * **Proceso:** Operaciones y decisiones lógicas.
 * **Salida:** El resultado final.
 
-### El Pseudocódigo
+## El Pseudocódigo
 Es una "falsa programación" que utiliza lenguaje humano (natural) para describir la lógica de un algoritmo. Su objetivo es facilitar la comprensión de la solución sin preocuparse por la sintaxis estricta de un lenguaje como C++ o Python.
 
 > **Estructura lógica general:**
@@ -118,16 +118,16 @@ Es una **introducción visual** a la lógica de programación diseñada para fac
 
 Este ejercicio pone en práctica el flujo lineal de un algoritmo, donde cada instrucción sigue a la anterior sin saltos ni repeticiones.
 
-### 1. Planteamiento del problema
+### 5.1 Planteamiento del problema
 *Realizar un programa que calcule el área de un triángulo a partir de su base y su altura, ingresadas por el usuario.*
 
-### 2. Análisis del problema
+### 5.2 Análisis del problema
 * **Entradas:** * Base (b) - Tipo: Real
     * Altura (h) - Tipo: Real
 * **Proceso:** * Aplicar la fórmula matemática: `Area = (base * altura) / 2`
 * **Salida:** * El valor calculado del Área.
 
-### 3. Diseño del algoritmo
+### 5.3 Diseño del algoritmo
 
 #### Pseudocódigo
 ```Text
@@ -141,7 +141,7 @@ Algoritmo CalcularAreaTriangulo
     Escribir "El área es: ", area
 FinAlgoritmo
 ```
-### 4. Codificación (Código Fuente en Lenguaje C)
+### 5.4 Codificación (Código Fuente en Lenguaje C)
 
 Este código implementa la lógica secuencial utilizando la librería estándar de entrada y salida.
 
@@ -168,7 +168,7 @@ int main() {
     return 0;
 }
 ````
-### 5. Validación (Prueba de Escritorio)
+### 5.5 Validación (Prueba de Escritorio)
 
 La prueba de escritorio permite seguir el rastro de las variables paso a paso para asegurar que el cálculo sea correcto.
 
@@ -201,14 +201,14 @@ Para verificar que el algoritmo sea correcto, aplicamos la misma lógica (`Area 
 5.**
 ---
 
-## Principales dificultades en la aplicación de los contenidos.
+## 6.Principales dificultades en la aplicación de los contenidos.
 
 * **Abstracción de la Lógica:** Pasar de un problema cotidiano a un algoritmo estructurado es el mayor reto. Entender que la computadora no "supone" nada y que cada paso debe ser explícito fue una dificultad inicial común.
 * **Sintaxis vs. Lógica:** Al principio, es fácil frustrarse por olvidar un punto y coma (`;`) en Lenguaje C o cerrar mal un bloque de código, lo que a veces distrae de lo más importante: entender si la solución lógica es correcta.
 * **Jerarquía de Operaciones:** En ejercicios secuenciales como el del área del triángulo, un error frecuente es no utilizar correctamente los paréntesis, lo que altera el resultado final del proceso matemático.
 * **Manejo de Tipos de Datos:** Diferenciar cuándo usar un `Entero` o un `Real` (float) genera confusión al inicio, especialmente cuando los resultados esperados tienen decimales.
 
-## Reflexión Crítica
+## 7.Reflexión Crítica
 
 La programación no se trata simplemente de escribir código en una computadora, sino de **aprender a pensar de forma estructurada**. Herramientas como el **Pseudocódigo** y los **Diagramas de Flujo** son fundamentales, ya que permiten "ver" la solución antes de pelearse con las reglas de un lenguaje técnico.
 
