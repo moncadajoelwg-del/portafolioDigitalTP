@@ -16,4 +16,4 @@ A continuación, se detallan las fuentes bibliográficas, lecturas sugeridas, ma
 * **[Autor, Año]**: *Referencias complementarias para los casos de estudio avanzados*.
 
 ---
-[🔙 Volver al Índice Principal](../README.md)
+[🔙 Volver al Índice Principal](./README.md)
