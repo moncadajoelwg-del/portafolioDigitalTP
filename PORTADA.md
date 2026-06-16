@@ -1,18 +1,16 @@
 <div align="center">
 
 <!-- TÍTULO PRINCIPAL -->
-<h1>📘 Portafolio Digital de Aprendizaje</h1>
+<h1>PORTAFOLIO DE APRENDIZAJE DE TEORÍA DE LA PROGRAMCACIÓN</h1>
 <p><i>"La teoría de la programación es el arte de estructurar la lógica del futuro."</i></p>
 
 ---
 
-<!-- IMAGEN DE PORTADA ESTILIZADA -->
-<br>
-<img src="https://www.initiumsoft.com/blog-posts/programacion-web/" alt="Teoría de la Programación" width="90%" style="border-radius: 15px; box-shadow: 0px 10px 30px rgba(0,0,0,0.5); max-height: 350px; object-fit: cover;">
-<br>
+<p align="center">
+  <img src="https://www.seas.es/blog/wp-content/uploads/2024/09/Programacion-web.jpg" alt="Teoría de la Programación" width="750" style="max-width: 100%;">
+</p>
 
-### 👋 ¡Bienvenido/a a este espacio de desarrollo y conocimiento!
-<p>Este portafolio recopila de manera ordenada y detallada los fundamentos científicos, estructuras de datos y paradigmas analizados a lo largo del ciclo académico.</p>
+​"Una mirada profunda a la lógica que sostiene el software. Este portafolio refleja el proceso de entender que la programación no es solo escribir comandos, sino el arte de descifrar problemas y diseñar respuestas con elegancia."
 
 ---
 
@@ -31,23 +29,9 @@
     <td>COMPUTACIÓN (Ciclo 01)</td>
   </tr>
 </table>
-<!-- ESPACIADO ARRIBA -->
-<br><br>
-
-<table align="center" width="85%" style="border: 2px solid #007acc; border-radius: 12px; background-color: #161b22; box-shadow: 0px 8px 20px rgba(0,0,0,0.4);">
-  <tr>
-    <td align="center" style="padding: 25px;">
-      <a href="./READAME.md" style="text-decoration: none;">
-        <h2 style="color: #58a6ff; margin: 0; font-size: 1.8em; letter-spacing: 1px;">
-          🚀 ENTRAR AL PORTAFOLIO DE CONTENIDOS 🧭
-        </h2>
-        <p style="color: #8b949e; margin-top: 8px; font-size: 1.1em;">
-          Haz clic aquí para desplegar el menú de navegación principal y las unidades
-        </p>
-      </a>
-    </td>
-  </tr>
-</table>
-
-<!-- ESPACIADO ABAJO -->
-<br><br><br>
+<p align="center">
+  <a href="README.md">
+    <img src="https://img.shields.io/badge/ACCEDER%20AL%20MENÚ%20PRINCIPAL%20-%20%230070f3?style=for-the-badge" alt="Acceder al Menú Principal">
+  </a>
+</p>
+---
