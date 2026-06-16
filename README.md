@@ -1,19 +1,3 @@
-# 📑 Portafolio Digital de Aprendizaje
-
-## 👋 ¡Bienvenido/a a este espacio de desarrollo y conocimiento!
-
----
-
-## 👤 Información General
-* **Autor:** Wilson Joel Guevara Moncada
-* **Asignatura:** Teoría de la programación 
-* **Docenete:** Ing. Lissette Geoconda López Faicán
-* **Carrera** COMPUTACIÓN
-* **Ciclo** 01
-
-
----
-
 ## 🧭 Menú de Navegación Principal
 
 Utiliza la siguiente tabla interactiva para explorar los contenidos del portafolio de manera ágil y eficiente. Cada enlace te redirigirá directamente a la documentación técnica de cada unidad:
