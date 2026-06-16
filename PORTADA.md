@@ -6,10 +6,9 @@
 
 ---
 
-<!-- BANNER O IMAGEN DE LA ASIGNATURA -->
-<!-- Nota: Reemplaza "./img/banner-programacion.png" por la ruta de la imagen que subas a tu repositorio -->
-<img src="./img/banner-programacion.png" alt="Teoría de la Programación" width="85%" style="border-radius: 10px; box-shadow: 0px 4px 10px rgba(0,0,0,0.3);">
-
+<!-- IMAGEN DE PORTADA ESTILIZADA -->
+<br>
+<img src="https://www.initiumsoft.com/blog-posts/programacion-web/" alt="Teoría de la Programación" width="90%" style="border-radius: 15px; box-shadow: 0px 10px 30px rgba(0,0,0,0.5); max-height: 350px; object-fit: cover;">
 <br>
 
 ### 👋 ¡Bienvenido/a a este espacio de desarrollo y conocimiento!
@@ -32,17 +31,23 @@
     <td>COMPUTACIÓN (Ciclo 01)</td>
   </tr>
 </table>
+<!-- ESPACIADO ARRIBA -->
+<br><br>
 
-<br>
-<br>
+<table align="center" width="85%" style="border: 2px solid #007acc; border-radius: 12px; background-color: #161b22; box-shadow: 0px 8px 20px rgba(0,0,0,0.4);">
+  <tr>
+    <td align="center" style="padding: 25px;">
+      <a href="./READAME.md" style="text-decoration: none;">
+        <h2 style="color: #58a6ff; margin: 0; font-size: 1.8em; letter-spacing: 1px;">
+          🚀 ENTRAR AL PORTAFOLIO DE CONTENIDOS 🧭
+        </h2>
+        <p style="color: #8b949e; margin-top: 8px; font-size: 1.1em;">
+          Haz clic aquí para desplegar el menú de navegación principal y las unidades
+        </p>
+      </a>
+    </td>
+  </tr>
+</table>
 
-<!-- BOTÓN DE ENTRADA AL MENÚ (ANCLA INTERNA) -->
-<h2>
-  <a href="README.md">
-   ---MENÚ--- 
-  </a>
-</h2>
-
-<br>
-<hr>
-</div>
+<!-- ESPACIADO ABAJO -->
+<br><br><br>
