@@ -14,3 +14,5 @@ Utiliza la siguiente tabla interactiva para explorar los contenidos del portafol
 Este **Portafolio Digital de Aprendizaje** ha sido diseñado como un entorno dinámico, estructurado e interactivo para recopilar, organizar y reflexionar sobre las evidencias, proyectos y competencias adquiridas a lo largo de este periodo académico. 
 
 A diferencia de un repositorio de almacenamiento común, este espacio representa un registro evolutivo de mi crecimiento técnico, teórico y práctico. El objetivo primordial es consolidar los conceptos clave de la ingeniería, documentando no solo los resultados finales, sino también el proceso analítico, la resolución de problemas y la aplicación de buenas prácticas en cada una de las actividades planteadas.
+
+[🔙 Volver ala portada](./PORTADA.md)
