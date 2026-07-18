@@ -24,8 +24,12 @@ J. Silva y R. Santos, "Estrategias didácticas para la enseñanza de estructuras
 Departamento de Computación, "Unidad 2: Estructuras de Control de Flujo - Decisiones y Bucles," Universidad Nacional Autónoma de México, CDMX, México, Material Didáctico, 2024. [En línea]. Disponible: https://www.unam.mx/
 
 ## 📁 Unidad 3: Proyectos Avanzados
-**Nota de desarrollo** :
-La bibliografía y referencias académicas correspondientes a la Unidad 3 serán incorporadas una vez que se complete el desarrollo temático y la selección de contenidos específicos de dicho módulo, garantizando así la pertinencia de las fuentes consultadas.
+[1] L. Joyanes Aguilar, *Fundamentos de Programación: Algoritmos, Estructuras de Datos y Objetos*, 4a ed. Madrid, España: McGraw-Hill, 2008, págs. 143-180 y 210-250. [En línea]. Disponible: https://www.mheducation.es/bcv/guide/capitulo/844814645X.pdf
+
+[2] R. Sedgewick y K. Wayne, *Algorithms*, 4a ed. Boston, MA, EE. UU.: Addison-Wesley, 2011. [En línea]. Disponible: https://algs4.cs.princeton.edu/
+
+[3] (Manual Universitario sobre Programación Modular y Arreglos) Departamento de Computación, "Introducción a la programación - Unidad Arreglos y Estructuras", Universidad Nacional Autónoma de México, CDMX, México, Material Didáctico, 2012. [En línea]. Disponible: http://www.fcaenlinea.unam.mx/apuntes/interiores/docs/2012/informatica/2/1167.pdf
+
 
 ---
 [🔙 Volver al Índice Principal](./README.md)
