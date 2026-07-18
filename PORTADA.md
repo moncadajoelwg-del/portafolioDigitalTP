@@ -26,7 +26,7 @@
     <td><b>👩‍🏫 Docente:</b></td>
     <td>Ing. Lissette Geoconda López Faicán</td>
     <td><b>💻 Carrera:</b></td>
-    <td>COMPUTACIÓN (Ciclo 01)</td>
+    <td>COMPUTACIÓN</td>
   </tr>
 </table>
 <p align="center">
