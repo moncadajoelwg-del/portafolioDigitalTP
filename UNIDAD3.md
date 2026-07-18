@@ -9,32 +9,32 @@
 
 ---
 
-# Modularidad en Programación
+# 1. Modularidad en Programación
 
 La modularidad consiste en dividir un programa en partes independientes llamadas **módulos**. Cada módulo realiza una tarea específica y se comunica con los demás a través de interfaces claras.
 
-## Ventajas Principales
+## 1.1  Ventajas Principales
 * **Reutilización**: Evita duplicar código.
 * **Mantenimiento**: Facilita corregir errores aislados.
 * **Legibilidad**: Simplifica la estructura del código.
 
 ---
 
-## Modos de Pase de Parámetros
+## 1.2  Modos de Pase de Parámetros
 
 Los módulos reciben datos del programa principal mediante parámetros utilizando dos mecanismos:
 
-### Pase por Valor
+### 1.3 Pase por Valor
 * Envía una **copia** de la variable.
 * Los cambios dentro del módulo **no afectan** el valor original.
 
-### Pase por Referencia
+### 1.4 Pase por Referencia
 * Envía la **dirección de memoria** de la variable.
 * Los cambios dentro del módulo **sí modifican** el valor original.
 
 ---
 
-## Ejemplos Prácticos Independientes (C++)
+## 1.5 Ejemplos Prácticos Independientes (C++)
 
 A continuación, se presentan dos ejemplos separados para analizar cada comportamiento de forma aislada.
 
@@ -88,7 +88,7 @@ int main() {
 }
 ```
 ---
-# Arreglos en Programación
+# 2. Arreglos en Programación
 
 Un arreglo (array o vector) es una estructura de datos que almacena una colección de elementos del **mismo tipo** bajo un único nombre. Los elementos se guardan en posiciones de memoria contiguas y se acceden mediante **índices**.
 
@@ -99,11 +99,11 @@ Un arreglo (array o vector) es una estructura de datos que almacena una colecci�
 
 ---
 
-## Tipos de Arreglos y Ejemplos (C++)
+## 2.1 Tipos de Arreglos y Ejemplos (C++)
 
 Los arreglos se clasifican según el número de dimensiones o índices que requieren para acceder a sus elementos.
 
-### 1. Arreglos Unidimensionales (Vectores)
+### 2.2 Arreglos Unidimensionales (Vectores)
 Tienen una sola dimensión. Utilizan un único índice para acceder a los datos de forma lineal (como una lista de elementos).
 
 ```cpp
@@ -124,7 +124,7 @@ int main() {
 }
 ```
 
-### 2. Arreglos Bidimensionales (Matrices)
+### 2.3 Arreglos Bidimensionales (Matrices)
 Tienen dos dimensiones. Organizan la información en una estructura de **filas y columnas** (como una tabla de Excel o un tablero de ajedrez). Requieren dos índices.
 
 ```cpp
@@ -151,7 +151,7 @@ int main() {
 }
 ```
 
-### 3. Arreglos Multidimensionales
+### 2.4 Arreglos Multidimensionales
 Tienen tres o más dimensiones. El caso más común es el tridimensional (3D), que se puede imaginar como un **cubo de datos** o un libro con varias páginas, donde cada página contiene una matriz (filas y columnas). Requieren tres o más índices.
 
 ```cpp
