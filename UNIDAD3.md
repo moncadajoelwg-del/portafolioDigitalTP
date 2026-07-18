@@ -196,7 +196,7 @@ La reflexión crítica que me deja esta unidad es que el software eficiente nace
 > * **Herramienta utilizada:** Gemini
 > * **Uso específico:** Debido a la complejidad de la gestión de memoria y el flujo de variables, se utilizó la IA para clarificar el comportamiento de los punteros/referencias en la transferencia de parámetros. También sirvió como apoyo para visualizar la lógica de ciclos anidados necesarios en el recorrido de arreglos bidimensionales y multidimensionales. El código final fue razonado, implementado y probado por el autor.
 <p align="left">
-  <a href="./conclusiones/README.md" style="text-decoration: none; color: #58a6ff; font-weight: bold; font-size: 14px;">Siguiente: CONCLUSIONES ➡️</a>
+  <a href="./conclusiones.md" style="text-decoration: none; color: #58a6ff; font-weight: bold; font-size: 14px;">Siguiente: CONCLUSIONES ➡️</a>
 </p>
 
 
