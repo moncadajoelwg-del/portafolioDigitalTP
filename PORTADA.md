@@ -7,7 +7,7 @@
 ---
 
 <p align="center">
-  <img src="https://www.seas.es/blog/wp-content/uploads/2024/09/Programacion-web.jpg" alt="Teoría de la Programación" width="750" style="max-width: 100%;">
+  <img src="https://img.magnific.com/foto-gratis/experiencia-programacion-persona-que-trabaja-codigos-computadora_23-2150010125.jpg?semt=ais_hybrid&w=740&q=80" alt="Teoría de la Programación" width="500" style="max-width: 100%;">
 </p>
 
 ​"Una mirada profunda a la lógica que sostiene el software. Este portafolio refleja el proceso de entender que la programación no es solo escribir comandos, sino el arte de descifrar problemas y diseñar respuestas con elegancia."
