@@ -6,9 +6,9 @@ Utiliza la siguiente tabla interactiva para explorar los contenidos del portafol
 | :--- | :--- | :---: | :--- |
 | **📁 Unidad 1** | Introducción, fundamentos iniciales y conceptos base. | ✅ Terminado | [Ir a la Unidad 1](./UNIDAD1.md) |
 | **📁 Unidad 2** | Desarrollo práctico, implementación y ejercicios en clase. | ✅ Terminado | [Ir a la Unidad 2](./UNIDAD2.md) |
-| **📁 Unidad 3** | Casos de estudio complejos y proyectos avanzados de cierre. | 🚧 En desarrollo | [Ver Estado](./UNIDAD3.md) |
-| **📁Conclusiones generales** | Casos de estudio complejos y proyectos avanzados de cierre. | 🚧 En desarrollo | [Ver Estado](./conclusiones\README.md) |
-| **📁 Bibliografia** | Casos de estudio complejos y proyectos avanzados de cierre. | 🚧 En desarrollo | [Ver Estado](./BIBLIOGRAFIA\README.md) |
+| **📁 Unidad 3** | Casos de estudio complejos y proyectos avanzados de cierre. | 🚧 En desarrollo | [Ir a la Unidad 3](./UNIDAD3.md) |
+| **📁Conclusiones generales** | Casos de estudio complejos y proyectos avanzados de cierre. | 🚧 En desarrollo | [Ir a las conclusiones](./conclusiones.md) |
+| **📁 Bibliografia** | Casos de estudio complejos y proyectos avanzados de cierre. | 🚧 En desarrollo | [Ir a la bibliografía](./BIBLIOGRAFIA\README.md) |
 
 ---
 Este **Portafolio Digital de Aprendizaje** ha sido diseñado como un entorno dinámico, estructurado e interactivo para recopilar, organizar y reflexionar sobre las evidencias, proyectos y competencias adquiridas a lo largo de este periodo académico. 
