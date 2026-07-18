@@ -1,3 +1,14 @@
+<div align="center" style="margin-bottom: 35px; border-top: 2px solid #58a6ff; border-bottom: 2px solid #58a6ff; padding: 20px 0;">
+  <h1 style="color: #58a6ff; font-size: 28px; font-weight: 800; letter-spacing: 3px; margin: 0; text-transform: uppercase; font-family: 'Segoe UI', system-ui, sans-serif;">
+    Unidad III: Programación modular y estructura de datos estáticas
+  </h1>
+  <div style="color: #8b949e; font-size: 14px; font-style: italic; margin-top: 8px; letter-spacing: 1px;">
+    — Diseño Modular, Parámetros y Gestión de Arreglos en Memoria —
+  </div>
+</div>
+
+---
+
 # Modularidad en Programación
 
 La modularidad consiste en dividir un programa en partes independientes llamadas **módulos**. Cada módulo realiza una tarea específica y se comunica con los demás a través de interfaces claras.
