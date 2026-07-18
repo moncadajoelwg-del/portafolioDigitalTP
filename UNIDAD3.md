@@ -185,3 +185,18 @@ int main() {
     return 0;
 }
 ```
+---
+## 4. Principales dificultades en la aplicación de los contenidos.
+Aplicar la programación modular y las estructuras de datos estáticas me generó ciertas dificultades porque exige un nivel de abstracción y orden mucho más estricto. Con la modularidad, el principal tropiezo fue aprender a fragmentar el problema correctamente y decidir cuándo enviar datos por valor (protegiendo la variable original) o por referencia (modificándola directamente), lo que al principio provocaba confusiones sobre dónde se alteraban realmente los datos. Con los arreglos (unidimensionales, matrices y multidimensionales), el verdadero dolor de cabeza fue controlar los índices de lectura y escritura; es muy fácil cometer errores de desbordamiento de memoria al intentar acceder a una posición que está fuera del tamaño fijo establecido, o confundirse al anidar ciclos para recorrer las diferentes capas y dimensiones de una matriz.
+
+## 5. Reflexion critica
+La reflexión crítica que me deja esta unidad es que el software eficiente nace de la organización y la optimización de los recursos. La modularidad nos enseña que el código limpio y reutilizable es fundamental para el mantenimiento a largo plazo, obligándonos a pensar en componentes independientes en lugar de un bloque de texto monolítico. Por otro lado, trabajar con estructuras estáticas como los arreglos nos aterriza a la realidad del uso de la memoria en la computadora, recordándonos que los recursos son finitos y que debemos dimensionar nuestros datos con precisión desde el inicio. El verdadero aprendizaje está en entender que programar no es solo resolver un problema, sino estructurar la solución de forma tan ordenada y lógica que sea fácil de escalar, leer y mantener por cualquier desarrollador.
+
+> ### 🤖 Declaración de Uso de IA - Unidad 3
+> * **Herramienta utilizada:** Gemini
+> * **Uso específico:** Debido a la complejidad de la gestión de memoria y el flujo de variables, se utilizó la IA para clarificar el comportamiento de los punteros/referencias en la transferencia de parámetros. También sirvió como apoyo para visualizar la lógica de ciclos anidados necesarios en el recorrido de arreglos bidimensionales y multidimensionales. El código final fue razonado, implementado y probado por el autor.
+
+<p align="left">
+  <a href="conclusiones\README.md" style="text-decoration: none; color: #58a6ff; font-weight: bold; font-size: 14px;">Siguiente: CONCLUSIONES ➡️</a>
+</p>
+
