@@ -34,7 +34,7 @@ Los módulos reciben datos del programa principal mediante parámetros utilizand
 
 ---
 
-## 1.5 Ejemplos Prácticos Independientes (C++)
+## 1.5 Ejemplos Prácticos Independientes (C)
 
 A continuación, se presentan dos ejemplos separados para analizar cada comportamiento de forma aislada.
 
@@ -112,7 +112,7 @@ Un arreglo (array o vector) es una estructura de datos que almacena una colecci�
 
 ---
 
-## 2.1 Tipos de Arreglos y Ejemplos (C++)
+## 2.1 Tipos de Arreglos y Ejemplos (C)
 
 Los arreglos se clasifican según el número de dimensiones o índices que requieren para acceder a sus elementos.
 
