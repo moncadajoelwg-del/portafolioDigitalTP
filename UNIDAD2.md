@@ -358,6 +358,11 @@ int main() {
 }
 
 ```
+SALIDA DEL TERMINAL
+<img width="1173" height="715" alt="image" src="https://github.com/user-attachments/assets/4af3140e-b50f-4bb5-aa59-c0e226866b67" />
+
+---
+
 ## Validación (prueba de escritorio)
 | Entrada (Edad) | Proceso (Cálculo del Boleto) | Salida (Mensaje en Pantalla) |
 | :---: | :--- | :--- |
