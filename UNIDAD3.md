@@ -19,6 +19,50 @@ La modularidad consiste en dividir un programa en partes independientes llamadas
 * **Legibilidad**: Simplifica la estructura del código.
 
 ---
+EJERCICIO 
+```cpp
+#include <stdio.h>
+
+// Módulos (Funciones)
+void mostrarSaldo(int saldoCopia);
+void depositar(int *saldoReal);
+
+int main() {
+    int miSaldo = 100; // Saldo inicial en la cuenta
+
+    // 1. Paso por Valor
+    mostrarSaldo(miSaldo);
+    printf("Saldo en tu tarjeta despues de consultar: $%d\n\n", miSaldo);
+
+    // 2. Paso por Referencia
+    depositar(&miSaldo); // Enviamos la cuenta real con &
+    printf("Saldo en tu tarjeta despues de depositar: $%d\n", miSaldo);
+
+    return 0;
+}
+
+// Recibe una copia. No puede cambiar el saldo de la tarjeta.
+void mostrarSaldo(int saldoCopia) {
+    saldoCopia = 0; // Simulamos un error interno
+    printf("[CAJERO] Tu saldo en pantalla es: $%d\n", saldoCopia);
+}
+
+// Recibe la dirección real. Modifica el saldo de la tarjeta.
+void depositar(int *saldoReal) {
+    *saldoReal = *saldoReal + 50; // Sumamos $50 directamente a la memoria
+    printf("[CAJERO] Has depositado $50 con exito.\n");
+}
+
+
+```
+
+
+SALIDA DEL TERMINAL 
+<img width="1193" height="233" alt="image" src="https://github.com/user-attachments/assets/60585b07-4cec-425a-a74e-546ab405c62a" />
+
+---
+
+
 
 ## 1.2  Modos de Pase de Parámetros
 
