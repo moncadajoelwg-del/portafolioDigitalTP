@@ -65,6 +65,11 @@ int main() {
 
 ```
 
+SALIDA DEL TERMINAL
+<img width="1181" height="172" alt="image" src="https://github.com/user-attachments/assets/5a706ea1-ae41-4ecb-b5bf-d744aec0621c" />
+
+---
+
 ### Ejemplo 2: Pase por Referencia
 En este caso, la función recibe la dirección real de la variable mediante el operador `&`. El valor original se modifica directamente.
 
@@ -91,6 +96,10 @@ int main() {
 }
 
 ```
+
+SALIDA DEL TERMINAL
+<img width="1180" height="191" alt="image" src="https://github.com/user-attachments/assets/789dbc91-e5ba-4276-a6eb-a293bc97eb6b" />
+
 ---
 # 2. Arreglos en Programación
 
@@ -129,6 +138,11 @@ int main() {
 
 ```
 
+SALIDA DEL TERMINAL
+<img width="1189" height="228" alt="image" src="https://github.com/user-attachments/assets/0a65fc8d-575a-417d-9638-1d2f079abc59" />
+
+---
+
 ### 2.3 Arreglos Bidimensionales (Matrices)
 Tienen dos dimensiones. Organizan la información en una estructura de **filas y columnas** (como una tabla de Excel o un tablero de ajedrez). Requieren dos índices.
 
@@ -157,6 +171,10 @@ int main() {
 
 ```
 
+SALIDA DEL TERMINAL
+<img width="1181" height="219" alt="image" src="https://github.com/user-attachments/assets/d293f67c-8ae8-489f-819d-5c8cb731fd5e" />
+
+---
 ### 2.4 Arreglos Multidimensionales
 Tienen tres o más dimensiones. El caso más común es el tridimensional (3D), que se puede imaginar como un **cubo de datos** o un libro con varias páginas, donde cada página contiene una matriz (filas y columnas). Requieren tres o más índices.
 
@@ -164,8 +182,8 @@ Tienen tres o más dimensiones. El caso más común es el tridimensional (3D), q
 #include <stdio.h>
 
 int main() {
-    // Arreglo 3D: 2 capas (páginas), 2 filas, 2 columnas
-    int cubo = {
+    // CORRECCIÓN: Se agregaron los corchetes [2][2][2] al nombre de la variable
+    int cubo[2][2][2] = { 
         { // Capa 0
             {10, 20}, // Fila 0
             {30, 40}  // Fila 1
@@ -192,6 +210,11 @@ int main() {
 }
 
 ```
+
+SALIDA DEL TERMINAL 
+<img width="1181" height="296" alt="image" src="https://github.com/user-attachments/assets/9e2ed7d3-df17-4de9-92e2-aa041a6b8462" />
+
+---
 ---
 ## 4. Principales dificultades en la aplicación de los contenidos.
 Aplicar la programación modular y las estructuras de datos estáticas me generó ciertas dificultades porque exige un nivel de abstracción y orden mucho más estricto. Con la modularidad, el principal tropiezo fue aprender a fragmentar el problema correctamente y decidir cuándo enviar datos por valor (protegiendo la variable original) o por referencia (modificándola directamente), lo que al principio provocaba confusiones sobre dónde se alteraban realmente los datos. Con los arreglos (unidimensionales, matrices y multidimensionales), el verdadero dolor de cabeza fue controlar los índices de lectura y escritura; es muy fácil cometer errores de desbordamiento de memoria al intentar acceder a una posición que está fuera del tamaño fijo establecido, o confundirse al anidar ciclos para recorrer las diferentes capas y dimensiones de una matriz.
