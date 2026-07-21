@@ -18,7 +18,7 @@ La modularidad consiste en dividir un programa en partes independientes llamadas
 * **Mantenimiento**: Facilita corregir errores aislados.
 * **Legibilidad**: Simplifica la estructura del código.
 
----
+
 EJERCICIO 
 ```cpp
 #include <stdio.h>
