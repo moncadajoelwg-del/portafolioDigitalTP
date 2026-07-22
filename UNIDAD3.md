@@ -82,67 +82,85 @@ Los módulos reciben datos del programa principal mediante parámetros utilizand
 
 A continuación, se presentan dos ejemplos separados para analizar cada comportamiento de forma aislada.
 
-### Ejemplo 1: Pase por Valor
-En este caso, la función recibe un duplicado. El valor original de la variable no se altera.
+### Ejemplo 1: Pase por Valor (Área del Círculo)
+En este programa, se envía la variable del radio por valor para calcular el área de un círculo. La función recibe una copia exacta del dato en un espacio de memoria nuevo, realiza la operación matemática y devuelve el resultado con un return. De esta manera, el radio original en la función principal permanece intacto, seguro y sin alteraciones.
 
 ```cpp
 #include <stdio.h>
 
-// Módulo independiente para pase por valor
-void duplicarPorValor(int numero) {
-    numero = numero * 2; // Solo modifica la copia local
-    printf("Dentro de la funcion (copia): %d\n", numero);
+// Módulo que recibe el radio por valor y calcula el área
+float calcularAreaCirculo(float radio) {
+    float pi = 3.14159;
+    radio = pi * (radio * radio); // Modifica solo la copia local del radio
+    return radio; // Devuelve el área calculada
 }
 
 int main() {
-    int miNumero = 15;
+    float miRadio = 5.0;
+    float miArea;
+
+    printf("=== EJERCICIO: PASE POR VALOR ===\n");
+    printf("Radio original en el main: %.2f\n", miRadio);
+
+    // Se pasa 'miRadio' por valor a la función
+    miArea = calcularAreaCirculo(miRadio);
+
+    printf("Area calculada: %.2f\n", miArea);
     
-    printf("=== PRUEBA PASE POR VALOR ===\n");
-    printf("Valor inicial: %d\n", miNumero); // Imprime 15
-    
-    duplicarPorValor(miNumero);
-    
-    printf("Valor final fuera de la funcion: %d\n", miNumero); // Sigue siendo 15
-    
+    // Comprobamos que el radio original NO fue alterado por la función
+    printf("Radio fuera de la funcion (sigue intacto): %.2f\n", miRadio);
+
     return 0;
 }
+
 
 ```
 
 SALIDA DEL TERMINAL
-<img width="1181" height="172" alt="image" src="https://github.com/user-attachments/assets/5a706ea1-ae41-4ecb-b5bf-d744aec0621c" />
+<img width="1194" height="180" alt="image" src="https://github.com/user-attachments/assets/2d8cc639-0d92-46b5-bca5-11dbfae8a0c8" />
+
 
 ---
 
-### Ejemplo 2: Pase por Referencia
-En este caso, la función recibe la dirección real de la variable mediante el operador `&`. El valor original se modifica directamente.
+### Ejemplo 2: Pase por Referencia (Sistema de Salud en Videojuegos)
+En este programa, se simula el uso de una poción curativa enviando la salud actual de un personaje mediante un puntero (int *). La función accede directamente a la dirección de memoria real del personaje usando el operador &. De esta manera, los puntos de vida aumentan de forma inmediata y permanente en el programa principal, reflejando el cambio de estado en tiempo real sin usar copias.
 
 ```cpp
 #include <stdio.h>
 
-// Módulo independiente para pase por referencia usando punteros
-void duplicarPorReferencia(int *numero) {
-    *numero = *numero * 2; // Modifica el valor en la dirección de memoria original
-    printf("Dentro de la funcion (original): %d\n", *numero);
+// Módulo que aplica una cura modificando la salud original por referencia
+void aplicarPocionCura(int *saludPersonaje, int puntosCura) {
+    // Se modifica directamente el valor en la dirección de memoria apuntada
+    *saludPersonaje = *saludPersonaje + puntosCura; 
+    
+    // Limita la salud máxima a 100 puntos
+    if (*saludPersonaje > 100) {
+        *saludPersonaje = 100;
+    }
 }
 
 int main() {
-    int miNumero = 15;
+    int vidaJugador = 45; // Variable que será modificada por la función
+    int pocionGrande = 30;
 
     printf("=== PRUEBA PASE POR REFERENCIA ===\n");
-    printf("Valor inicial: %d\n", miNumero); // Imprime 15
-    
-    // Se envía la dirección de memoria usando el operador &
-    duplicarPorReferencia(&miNumero);
-    
-    printf("Valor final fuera de la funcion: %d\n", miNumero); // Ahora es 30
+    printf("Salud inicial del jugador: %d HP\n", vidaJugador); // Imprime 45 HP
+
+    // Se envía la variable 'vidaJugador' por referencia usando el operador &
+    aplicarPocionCura(&vidaJugador, pocionGrande);
+
+    // La variable original fue modificada directamente por la función
+    printf("Salud final despues de la pocion: %d HP\n", vidaJugador); // Ahora es 75 HP
+
     return 0;
 }
+
 
 ```
 
 SALIDA DEL TERMINAL
-<img width="1180" height="191" alt="image" src="https://github.com/user-attachments/assets/789dbc91-e5ba-4276-a6eb-a293bc97eb6b" />
+<img width="1192" height="208" alt="image" src="https://github.com/user-attachments/assets/d91cedf0-11e7-46c9-ad67-14bfa469933c" />
+
 
 ---
 # 2. Arreglos en Programación
@@ -161,53 +179,61 @@ Un arreglo (array o vector) es una estructura de datos que almacena una colecci�
 Los arreglos se clasifican según el número de dimensiones o índices que requieren para acceder a sus elementos.
 
 ### 2.2 Arreglos Unidimensionales (Vectores)
-Tienen una sola dimensión. Utilizan un único índice para acceder a los datos de forma lineal (como una lista de elementos).
+En este programa, se utilizan arreglos unidimensionales para emparejar de forma lineal los nombres y las cantidades del inventario de un personaje. El sistema almacena de forma consecutiva cadenas de texto (char *) y enteros (int), permitiendo recorrer ambos vectores simultáneamente con un único índice dentro de un ciclo iterativo para mostrar la información estructurada en pantalla.
 
 ```cpp
 #include <stdio.h>
 
 int main() {
-    // Declaración e inicialización de un vector de 5 notas
-    int notas[5] = {85, 92, 78, 90, 88};
+    // Un arreglo de cadenas de texto para los nombres de los ítems
+    char *nombresItems[5] = {"Pociones", "Espadas", "Escudos", "Monedas", "Flechas"};
+    
+    // El arreglo con las cantidades de cada ítem
+    int cantidades[5] = {12, 3, 0, 50, 15}; 
 
-    printf("=== ARREGLO UNIDIMENSIONAL ===\n");
-    
-    // Acceso y lectura mediante un ciclo FOR (un solo índice)
-    for(int i = 0; i < 5; i++) {
-        printf("Nota en posicion [%d]: %d\n", i, notas[i]);
+    printf("=== INVENTARIO DEL JUGADOR ===\n");
+
+    // El ciclo FOR recorre ambos arreglos usando el mismo índice
+    for (int i = 0; i < 5; i++) {
+        printf("Espacio [%d] -> %s: %d unidades\n", i, nombresItems[i], cantidades[i]);
     }
-    
+
     return 0;
 }
 
 ```
 
 SALIDA DEL TERMINAL
-<img width="1189" height="228" alt="image" src="https://github.com/user-attachments/assets/0a65fc8d-575a-417d-9638-1d2f079abc59" />
+<img width="1188" height="214" alt="image" src="https://github.com/user-attachments/assets/fc8600a7-c020-45b4-902c-74daef3c9c61" />
+
 
 ---
 
-### 2.3 Arreglos Bidimensionales (Matrices)
-Tienen dos dimensiones. Organizan la información en una estructura de **filas y columnas** (como una tabla de Excel o un tablero de ajedrez). Requieren dos índices.
+### 2.3 Arreglos Bidimensionales (Matrices - Laberinto de Pac-Man)
+En este programa, se utiliza una matriz de caracteres para renderizar de forma visual un fragmento del mapa clásico de Pac-Man en dos dimensiones. La estructura organiza el laberinto mediante filas y columnas que representan coordenadas espaciales, requiriendo ciclos anidados para recorrer cada casilla e imprimir muros, pasillos con puntos o la posición actual del personaje en la pantalla.
 
 ```cpp
 #include <stdio.h>
 
 int main() {
-    // Declaración de una matriz de 2 filas y 3 columnas
-    int matriz[2][3] = {
-        {1, 2, 3},  // Fila 0
-        {4, 5, 6}   // Fila 1
+    // Matriz de 4 filas y 5 columnas que dibuja una esquina del laberinto
+    // '#' = Muro, '.' = Pildora/Comida, 'C' = Pac-Man
+    char laberinto[4][5] = {
+        {'#', '#', '#', '#', '#'}, // Fila 0: Muro superior
+        {'#', '.', '.', 'C', '#'}, // Fila 1: Pasillo con Pac-Man
+        {'#', '.', '#', '.', '#'}, // Fila 2: Pasillo con un muro interno
+        {'#', '#', '#', '#', '#'}  // Fila 3: Muro inferior
     };
 
-    printf("=== ARREGLO BIDIMENSIONAL ===\n");
+    printf("=== ARREGLO BIDIMENSIONAL (LABERINTO PAC-MAN) ===\n");
 
-    // Recorrido usando ciclos anidados (dos índices: f para fila, c para columna)
-    for(int f = 0; f < 2; f++) {
-        for(int c = 0; c < 3; c++) {
-            printf("Elemento [%d][%d]: %d  ", f, c, matriz[f][c]);
+    // Recorrido usando ciclos anidados (f para fila, c para columna)
+    for(int f = 0; f < 4; f++) {
+        for(int c = 0; c < 5; c++) {
+            // Imprime el caracter de la celda seguido de un espacio para darle forma cuadrada
+            printf("%c ", laberinto[f][c]); 
         }
-        printf("\n"); // Salto de línea al terminar cada fila
+        printf("\n"); // Salto de línea al terminar cada fila del laberinto
     }
 
     return 0;
@@ -216,36 +242,40 @@ int main() {
 ```
 
 SALIDA DEL TERMINAL
-<img width="1181" height="219" alt="image" src="https://github.com/user-attachments/assets/d293f67c-8ae8-489f-819d-5c8cb731fd5e" />
+<img width="1184" height="204" alt="image" src="https://github.com/user-attachments/assets/d5018ff7-c181-4368-9299-bb15e837eaba" />
 
+#### Explicación del Código (Simulación Teórica)
+##### Este programa no constituye un videojuego jugable ni interactivo de Pac-Man, ya que carece de mecánicas de movimiento, lógica de colisiones o bucles de juego en tiempo real. Su propósito es puramente educativo y demostrativo, sirviendo como una maqueta estática para ilustrar de forma gráfica cómo las estructuras de datos bidimensionales organizan y representan mundos virtuales basados en cuadrículas dentro de la memoria del computador.
 ---
-### 2.4 Arreglos Multidimensionales
-Tienen tres o más dimensiones. El caso más común es el tridimensional (3D), que se puede imaginar como un **cubo de datos** o un libro con varias páginas, donde cada página contiene una matriz (filas y columnas). Requieren tres o más índices.
+
+### 2.4 Arreglos Multidimensionales (Torre de Mazmorras 3D)
+En este programa, se utiliza un arreglo tridimensional (3D) para gestionar las recompensas de oro en una torre de mazmorras de múltiples pisos. La estructura añade una tercera dimensión llamada "capa" (el piso del mapa), organizando los datos en un cubo virtual en memoria que requiere tres índices independientes manejados con ciclos anidados de tres niveles para leer la información posicional completa. 
 
 ```cpp
 #include <stdio.h>
 
 int main() {
-    // CORRECCIÓN: Se agregaron los corchetes [2][2][2] al nombre de la variable
-    int cubo[2][2][2] = { 
-        { // Capa 0
-            {10, 20}, // Fila 0
-            {30, 40}  // Fila 1
+    // Arreglo tridimensional [2 pisos][2 filas][2 columnas] 
+    // Almacena la cantidad de monedas de oro en los cofres de cada zona
+    int mazmorra[2][2][2] = {
+        { // Capa 0: Piso Subterráneo
+            {10, 20}, // Fila 0: Cofres del pasillo izquierdo
+            {30, 40}  // Fila 1: Cofres del pasillo derecho
         },
-        { // Capa 1
-            {50, 60}, // Fila 0
-            {70, 80}  // Fila 1
+        { // Capa 1: Piso Principal
+            {50, 60}, // Fila 0: Cofres de la sala de armas
+            {70, 80}  // Fila 1: Cofres del trono
         }
     };
 
-    printf("=== ARREGLO MULTIDIMENSIONAL (3D) ===\n");
+    printf("=== ARREGLO MULTIDIMENSIONAL (TORRE MAZMORRA 3D) ===\n");
 
-    // Recorrido usando tres ciclos anidados (índices: capa, fila, columna)
-    for(int capa = 0; capa < 2; capa++) {
-        printf("--- Capa %d ---\n", capa);
+    // Recorrido usando tres ciclos anidados (índices: piso, fila, columna)
+    for(int piso = 0; piso < 2; piso++) {
+        printf("--- Piso %d ---\n", piso);
         for(int f = 0; f < 2; f++) {
             for(int c = 0; c < 2; c++) {
-                printf("Cubo[%d][%d][%d] = %d\n", capa, f, c, cubo[capa][f][c]);
+                printf("Cofre [%d][%d][%d] = %d monedas\n", piso, f, c, mazmorra[piso][f][c]);
             }
         }
     }
@@ -253,17 +283,18 @@ int main() {
     return 0;
 }
 
+
 ```
 
 SALIDA DEL TERMINAL 
-<img width="1181" height="296" alt="image" src="https://github.com/user-attachments/assets/9e2ed7d3-df17-4de9-92e2-aa041a6b8462" />
 
----
+<img width="1190" height="258" alt="image" src="https://github.com/user-attachments/assets/e537fe6b-37f8-41b8-b51f-795415979a23" />
+
 ---
 ## 4. Principales dificultades en la aplicación de los contenidos.
 Aplicar la programación modular y las estructuras de datos estáticas me generó ciertas dificultades porque exige un nivel de abstracción y orden mucho más estricto. Con la modularidad, el principal tropiezo fue aprender a fragmentar el problema correctamente y decidir cuándo enviar datos por valor (protegiendo la variable original) o por referencia (modificándola directamente), lo que al principio provocaba confusiones sobre dónde se alteraban realmente los datos. Con los arreglos (unidimensionales, matrices y multidimensionales), el verdadero dolor de cabeza fue controlar los índices de lectura y escritura; es muy fácil cometer errores de desbordamiento de memoria al intentar acceder a una posición que está fuera del tamaño fijo establecido, o confundirse al anidar ciclos para recorrer las diferentes capas y dimensiones de una matriz.
 
-## 5. Reflexion critica
+## 5. Reflexión crítica
 La reflexión crítica que me deja esta unidad es que el software eficiente nace de la organización y la optimización de los recursos. La modularidad nos enseña que el código limpio y reutilizable es fundamental para el mantenimiento a largo plazo, obligándonos a pensar en componentes independientes en lugar de un bloque de texto monolítico. Por otro lado, trabajar con estructuras estáticas como los arreglos nos aterriza a la realidad del uso de la memoria en la computadora, recordándonos que los recursos son finitos y que debemos dimensionar nuestros datos con precisión desde el inicio. El verdadero aprendizaje está en entender que programar no es solo resolver un problema, sino estructurar la solución de forma tan ordenada y lógica que sea fácil de escalar, leer y mantener por cualquier desarrollador.
 
 > ### 🤖 Declaración de Uso de IA - Unidad 3
